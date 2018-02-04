@@ -10,10 +10,10 @@
     "test": "ng test",
     "lint": "tslint ./src/**/*.ts -t verbose",
     "e2e": "ng e2e",
-    "postinstall":"ng build --aot -prod"
+    "postinstall": "ng build --aot -prod"
   },
-  "engines":{
-  	"node": "6.11.5",
+  "engines": {
+    "node": "6.11.5",
     "npm": "3.10.10"
   },
   "keywords": [],
@@ -40,7 +40,8 @@
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
-    "@angular/cli": "1.5.2",
+    "@angular/cli": "^1.6.7",
+    "@angular/compiler-cli": "^5.0.5",
     "@types/jasmine": "~2.8.0",
     "@types/jasminewd2": "^2.0.3",
     "@types/node": "^6.0.45",
